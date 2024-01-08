@@ -1,0 +1,25 @@
+{
+  "name": "wy-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "wy-build": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "commander": "^11.1.0",
+    "detect-port": "^1.5.1",
+    "fast-glob": "^3.3.2",
+    "inquirer": "^8.0.0",
+    "npmlog": "^7.0.1",
+    "semver": "^7.5.4",
+    "webpack-chain": "^6.5.1"
+  }
+}

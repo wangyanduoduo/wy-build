@@ -1,0 +1,9 @@
+{
+  "entry": "src/index.js",
+  "output": "dist",
+  "plugins": ["wy-build-test"],
+  "hooks": [
+    ["start", "./hooks/start.mjs"],
+    ["start", "wy-build-start"]
+  ]
+}
